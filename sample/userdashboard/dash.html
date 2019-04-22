@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Customer DASHBOARD</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+      <!-- Sidebar -->
+      <div class="bg-medium border-right" id="sidebar-wrapper" >
+        <div class="sidebar-heading">DASHBOARD </div>
+          <div class="list-group list-group-flush">
+              <a href="http://ranegroup.com/rane-trw-steering-systems-private-limited/" class="list-group-item list-group-item-action bg-medium">HOME</a>
+              <a href="#" class="list-group-item list-group-item-action bg-medium">TRACK ORDER</a>
+              <a href="#" class="list-group-item list-group-item-action bg-medium">CONTACT US</a>
+              <!--<a href="#" class="list-group-item list-group-item-action bg-light">PLACE ORDER</a>
+              <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+              <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>-->
+          </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom">
+          <button class="btn btn-primary" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <!--<li class="nav-item active">
+                <a class="nav-link" href="http://ranegroup.com/rane-trw-steering-systems-private-limited/"><span class="sr-only">(current)</span></a>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;" onclick="collr();" id="order" href="#placeorder">PLACE ORDER</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container-fluid">
+          <!--<h1 class="mt-4">Company's Profile (RANE TRW)</h1>
+            <p>The Profile of the customer is given below with a statistic details. The Rane TRW is a steering manufacturing company 
+              which is one of the top most manufacturing company all over the globe. click on the "HOME" button to visit the website of our's
+              some of the manufacturing products and the detailed description is explained in our website</p>
+            <img src="rane.jpg" alt="rane logo" class="rane"> <br>
+            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration.
+              Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>-->
+            <h1 id="profile" class="mt-4">CUSTOMER PROFILE:</h1>
+         
+            <p>The customer details are required to have a saved database to provide a easy access For them
+              to place the order for the next time. To order for the product manufacting product click on the "PLACE ORDER" 
+              on the toolbar menu</p>
+            <div class="container1" style="text-align: center;">
+              <center><table cellspacing="10" cellpadding="0">
+             
+              <tr><td><label for="cname" style="padding-right: 10px;"><b>Company name</b></label></td><td><input type="text" placeholder="Enter Company name" name="  " id="name" required style="text-align: center;"></td></tr>
+              <tr><td><label for="name"><b>LLPIN</b></label></td><td><input type="text" style="text-align: center;" placeholder="Enter LLPIN" name="name" required></td></tr>
+              <tr><td><label for= "mailid"><b>Mail id</b></label></td><td><input type="text" placeholder="Enter mail id" name="mail" required></td></tr>
+              <tr><td><label for= "pno"><b>Mobile number</b></label></td><td><input type="text" placeholder="Enter mobile number" id="pno" name="pno"  onmousemove="validate();" required></td></tr>                    
+              <!--<tr><td><label for= "pwd1"><b>Password</b></label></td><td><input type="password" placeholder="Enter password" name="pwd1" onmousemove="validate();" onkeypress="validate1();"  id="pwd1" required></td></tr>
+              <tr><td><label for= "pwd2"><b>Repassword</b></label></td><td><input type="password" placeholder="Repassword" name="pwd2" onkeypress="validate();" onmousemove="validate1();" id="pwd2" required></td></tr>-->
+              </table><br></center>
+            </div>
+              <!-- <button type="button"  class="nav-link button" href="#customer form">Customer Profile and Company details</button>-->
+            <h1 id="track" class="mt-4">TRACK ORDER</h1>
+            <p>The tracking of the products in the manufacturing side is shone to the customer. So the costomers can track when the product
+              will reach the customer and also the customers need not have to reach the company often to check the progress of the product 
+              as it is very user friendly to access the product tracking in "RANE TRW" company.
+            </p>
+          
+		      <!-- Footer::Start -->
+		      <div class="container-fluid" >
+						
+            <div class="container">	
+              <div class="section">
+      
+        
+                <div class="col span_1_of_4">
+                  <h2>Businesses</h2>			<div class="textwidget"><a href="/rane-holdings-limited/">Rane Holdings Limited</a><br>
+                  <a href="/rane-engine-valve-limited/">Rane Engine Valve Limited</a><br>
+                  <a href="/rane-madras-limited/">Rane (Madras) Limited</a><br>
+                  <a href="/rane-brake-lining-limited/">Rane Brake Lining Limited</a><br>
+                  <a href="/rane-trw-steering-systems-private-limited/">Rane TRW Steering Systems Private Limited</a><br>
+                  <a href="/rane-nsk-steering-systems-private-limited/">Rane NSK Steering Systems Private Limited</a><br><br></div>
+                </div>
+
+        
+                <div class="col span_1_of_4">
+                  <h2>Businesses</h2>			<div class="textwidget"><a href="/rane-auto-parts/">Rane Auto Parts</a><br>
+                  <a href="/rane-precision-die-casting-inc/">Rane Precision Die Casting Inc.</a><br>
+                  <a href="http://www.ranet4u.com">Rane t4u Pvt. Ltd.</a><br>
+                </div>    
+              </div>   
+
+              <div class="section">
+                <div class="col span_1_of_4">
+                  <h2>Products</h2>			<div class="textwidget"><a href="/products/#steering">Steering & Suspension Systems</a><br>
+                  <a href="/products/#valveTrain">Valve Train Components</a><br>
+                  <a href="/products/#frictionMaterial">Friction Material Products</a><br>
+                  <a href="/products/#occupantSafety">Occupant Safety Systems</a><br>
+                  <a href="/products/#dieCasting">Die Casting Products</a><br>
+                  <a href="/rap-products/">Aftermarket Products</a><br>
+                  <a href="http://www.ranet4u.com">Connected Mobility Solutions</a><br></div>
+                </div>
+
+        
+                <div class="col span_1_of_4">
+                  <h2>Investors</h2>			
+                  <div class="textwidget"><a href="/rane-holdings-limited/#investors">Rane Holdings Limited</a><br>
+                  <a href="/rane-madras-limited/#investors">Rane (Madras) Limited</a><br>
+                  <a href="/rane-engine-valve-limited/#investors">Rane Engine Valve Limited</a><br>
+                  <a href="/rane-brake-lining-limited/#investors">Rane Brake Lining Limited</a><br></div>
+          
+                </div>
+              </div>
+            </div>
+                <!--<div id="powered">© 2018 Rane Holdings Limited  | <a href="/sitemap"  target="_blank">Sitemap</a> | <a href="/wp-content/uploads/2018/05/ranetermsofuse.pdf"  target="_blank">Terms of Use</a> | 
+                <a href="/wp-content/uploads/2018/05/raneprivacypolicy.pdf"  target="_blank">Privacy Policy</a></div>      
+                -->
+         
+      
+          
+                <div id="footer" class="footer_btm" >
+                    <div class="container" >
+                      <div class="footer_btm_inner"></div>
+                      
+                      <!--<a target='_blank' class='footer_soc_icon' href='https://www.youtube.com/user/RaneUpload'>
+                                  <span class='icon icon-youtube' title='Youtube'></span>
+                                  </a><a target='_blank' class='footer_soc_icon' href='https://www.linkedin.com/company/rane-holdings-limited'>
+                                  <span class='icon icon-linkedin3' title='LinkedIn'></span>
+                                  </a><a target='_blank' class='footer_soc_icon' href='https://www.facebook.com/RaneHoldingsLimited/'>
+                                  <span class='icon icon-facebook3' title='Facebook'></span>
+                                  </a>	-->				
+                                  <center><div id="powered">© 2018 Rane Holdings Limited  | <a href="/sitemap"  target="_blank">Sitemap</a> | <a href="/wp-content/uploads/2018/05/ranetermsofuse.pdf"  target="_blank">Terms of Use</a> | <a href="/wp-content/uploads/2018/05/raneprivacypolicy.pdf"  target="_blank">Privacy Policy</a></div></center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Footer::END -->
+              
+              
+              
+              </div>
+              <!-- Page wrapper::END -->
+
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Menu Toggle Script -->
+      <script>
+        $("#menu-toggle").mouseover(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+        });
+      </script>
+  <script type='text/javascript'>
+    var colomatduration = 'fast';
+    var colomatslideEffect = 'slideFade';
+    </script><link rel='stylesheet' id='background-style-css'  href='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/css/background-style.css?ver=4.8.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='ultimate-animate-css'  href='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/css/animate.css?ver=4.8.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='ultimate-style-css'  href='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/css/style.css?ver=4.8.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css-css'  href='http://ranegroup.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.0.1' type='text/css' media='' />
+    <script type='text/javascript'>
+    
+    </script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.6.6'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/js/SmoothScroll-compatible.min.js?ver=1.5.6'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/stock-ticker/assets/js/jquery.webticker.min.js?ver=2.2.0.1'></script>
+    <script type='text/javascript'>
+    
+    </script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/stock-ticker/assets/js/jquery.stockticker.min.js?ver=3.0.5.4'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/ultimate-product-catalogue/js/product-page-display.js?ver=1.0'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/ultimate-product-catalogue/js/jquery.gridster.js?ver=1.0'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-includes/js/wp-embed.min.js?ver=4.8.8'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/js/ultimate_bg.js?ver=1.5.6'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/js/jparallax.js?ver=1.5.6'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/js/jquery.vhparallax.js?ver=1.5.6'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/js/jquery.appear.js?ver=1.5.6'></script>
+    <script type='text/javascript' src='http://ranegroup.com/wp-content/plugins/parallax_video_backgrounds_vc/assets/js/custom.js?ver=1.5.6'></script>
+    <script type='text/javascript' src='//maps.google.com/maps/api/js?sensor=false&#038;key=AIzaSyB4QRKmh98RnRnfG5I2Dzk0aBFNDEEioCI&#038;ver=4.8.8'></script>
+
+    <script>
+      document.getElementById("order").addEventListener("mouseover", mouseOver);
+      document.getElementById("order").addEventListener("mouseout", mouseOut);
+      
+      function mouseOver() {
+        document.getElementById("order").style.color = "black";
+      }
+      
+      function mouseOut() {
+        document.getElementById("order").style.color = "white";
+      }
+      function collr()
+      {
+        document.getElementById("order").style.backgroundColor = "rgb(180, 216, 216)";
+        document.getElementById("order").style.color = "black";
+      }
+      </script>
+  </body>
+
+</html>

@@ -1,0 +1,234 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+  background-color: rgb(238, 238, 230);
+}
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 50px;
+}
+p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+li{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  padding: 10%;
+  background-color:rgb(180, 216, 216);
+  color: black;
+}
+
+.textwidget {
+  padding: 0 0 10px;
+  margin: 0px 0 0;
+}
+.span_1_of_4 {
+  width: 21.75%;
+}
+a, a:visited {
+  color: #444;
+  outline: 0;
+  text-decoration: none;
+  -webkit-transition: color 0.14s linear;
+  -moz-transition: color 0.14s linear;
+  -ms-transition: color 0.14s linear;
+  -o-transition: color 0.14s linear;
+  transition: color 0.14s linear;
+}
+.col {
+  display: block;
+  float: left;
+  margin: 0 0 30px 3%;
+      margin-left: 3%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+element {
+
+  opacity: 1;
+
+}
+#footer a {
+
+  color: rgb(66, 163, 163);
+
+}
+.footer_soc_icon {
+
+  padding: 0px 6px 0;
+  margin: 5px 0 0;
+  display: inline-block;
+}
+  element {
+    opacity: 1;
+
+}
+#footer a {
+
+    color: #94A3A3;
+
+}
+.footer_soc_icon {
+
+    padding: 0px 6px 0;
+    margin: 5px 0 0;
+    display: inline-block;
+   /* float: right;*/
+
+}
+.icon-youtube{
+  background-image: url(index2.png);
+}
+.icon-facebook3{
+  background-image: url(index.png);
+}
+.icon-linkedin3{
+  background-image: url(index1.png);
+}
+.icon {
+
+  font-family: 'icomoon';
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 0;
+  image-rendering: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.footer_btm {
+  clear: both;
+  padding: 20px 0px 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background: #121313;
+  border-top: 1px solid #2a2a2a;
+  margin-top: 16px;
+  overflow: hidden;
+}
+.container{
+
+  width: 1200px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+.button {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   border: none;
+   color:black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   width: auto;
+   font-size: 16px;
+   margin-left:35%;
+   margin-right:auto;
+  }
+.rane{
+  size: 50%;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  background-color: rgb(248, 245, 73);
+  color: black;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+
+.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+.section::after {
+
+  clear: both;
+
+}
+.section::before, .section::after {
+
+  content: "";
+  display: table;
+
+}
+*, ::before, ::after {
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+#footer {
+
+  font-size:16px;
+  color: wheat;
+}
+#footer h3 {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+
+}

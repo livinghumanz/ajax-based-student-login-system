@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}
+#particles-js
+{
+    height: 100%;
+    background:rgb(38, 114, 114);
+}
+.container {
+    height: 100%;
+    width: 100%;
+  }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  a:focus {
+    background-color: rgb(38, 114, 114);
+  }  
+  .fleft{
+      float: left;
+      width: 25%;
+  }
+  .fleft1{
+    float: left;
+    width: 49%;
+    text-align: right;
+    text-justify: auto;
+}
+.fright{
+    float: right;
+    width: 49%;
+   text-align: left;
+}
+/********************************css nw **************************************/
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: left;
+    margin: 25px 18px ;
+    position: relative;
+  }  
+  img.avatar {
+    width: 25%;
+    border-radius: 20%;
+  }
+  
+  .container1 {
+    padding: 20px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 100px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  /**********************************END*******************************/
+  td{
+    text-align: right;
+  }
+  
